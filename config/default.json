@@ -1,0 +1,3 @@
+{
+    "mongoLink": "mongodb+srv://affordly:affordly123@cluster0.lzi2l.mongodb.net/affordly?retryWrites=true&w=majority"
+}

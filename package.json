@@ -4,8 +4,10 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "node server",
-    "server": "nodemon server"
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "affordly": "npm start --prefix affordly",
+    "dev": "concurrently \"npm run server\" \"npm run affordly\""
   },
   "repository": {
     "type": "git",
